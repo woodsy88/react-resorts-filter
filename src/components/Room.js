@@ -7,7 +7,7 @@ const Room = ({room}) => {
   // console.log(room);
 
   const { name, slug, images, price } = room;
-  console.log(slug);
+  // console.log(slug);
   
   return (
     <article className="room">
