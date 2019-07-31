@@ -10,7 +10,7 @@ class SingleRoom extends Component {
  
   constructor(props){
     super(props);
-    console.log(this.props);
+    // console.log(this.props);
     this.state = {
                   // react-router dom props
       slug: this.props.match.params.slug,
@@ -27,7 +27,7 @@ class SingleRoom extends Component {
   render() {
       const { getRoom } = this.context;
       const room = getRoom(this.state.slug);
-    console.log('room', room); 
+    // console.log('room', room); 
    
 
       // if room undefined
@@ -43,8 +43,8 @@ class SingleRoom extends Component {
       const { name, description, capacity, size, price, extras, breakfast, pets, images} = room;
 
       const [mainImg, ...defaultImages] = images;
-      console.log(mainImg)
-      console.log(defaultImages)
+      // console.log(mainImg)
+      // console.log(defaultImages)
       
       return (
         <>
