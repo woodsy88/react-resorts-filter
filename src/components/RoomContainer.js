@@ -8,6 +8,7 @@ import Loading from '../components/Loading';
 
 function RoomContainer ({ context }) {
    
+  // roughly 3:40 - may have to go up and down to find
   const {loading, sortedRooms, rooms} = context;
 
   if (loading) {
