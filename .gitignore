@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 # 5.43
-.env/development
+.env.development
 # testing
 /coverage
 
